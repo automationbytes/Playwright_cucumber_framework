@@ -10,7 +10,7 @@
     "pendingScenarios": 0,
     "ambiguousScenarios": 0,
     "notDefinedScenarios": 0,
-    "totalDuration": "00:00:01.580"
+    "totalDuration": "00:00:00.880"
   },
   "features": [
     {
@@ -22,7 +22,7 @@
       "pendingScenarios": 0,
       "ambiguousScenarios": 0,
       "notDefinedScenarios": 0,
-      "duration": "00:00:01.580",
+      "duration": "00:00:00.880",
       "passedPercentage": 100,
       "failedPercentage": 0,
       "skippedPercentage": 0,

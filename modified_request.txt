@@ -1,0 +1,7 @@
+{
+  "common": {
+    "externalCustomerId": await util.read_excel(sheetname, label, "common.externalCustomerId") === "null" ? '' : await util.read_excel(sheetname, label, "common.externalCustomerId") ,
+    "accountId": await util.read_excel(sheetname, label, "common.accountId") === "null" ? '' : await util.read_excel(sheetname, label, "common.accountId") ,
+    "presentationId": await util.read_excel(sheetname, label, "common.presentationId") === "null" ? '' : await util.read_excel(sheetname, label, "common.presentationId") 
+  }
+}

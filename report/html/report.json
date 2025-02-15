@@ -1,0 +1,56 @@
+{
+  "executionSummary": {
+    "totalFeatures": 1,
+    "passedFeatures": 1,
+    "failedFeatures": 0,
+    "totalScenarios": 1,
+    "passedScenarios": 1,
+    "failedScenarios": 0,
+    "skippedScenarios": 0,
+    "pendingScenarios": 0,
+    "ambiguousScenarios": 0,
+    "notDefinedScenarios": 0,
+    "totalDuration": "00:00:01.580"
+  },
+  "features": [
+    {
+      "name": "API",
+      "totalScenarios": 1,
+      "passedScenarios": 1,
+      "failedScenarios": 0,
+      "skippedScenarios": 0,
+      "pendingScenarios": 0,
+      "ambiguousScenarios": 0,
+      "notDefinedScenarios": 0,
+      "duration": "00:00:01.580",
+      "passedPercentage": 100,
+      "failedPercentage": 0,
+      "skippedPercentage": 0,
+      "pendingPercentage": 0,
+      "ambiguousPercentage": 0,
+      "notDefinedPercentage": 0
+    }
+  ],
+  "customData": [
+    {
+      "label": "Project",
+      "value": "Custom project"
+    },
+    {
+      "label": "Release",
+      "value": "1.2.3"
+    },
+    {
+      "label": "Cycle",
+      "value": "B11221.34321"
+    },
+    {
+      "label": "Execution Start Time",
+      "value": "Nov 19th 2017, 02:31 PM EST"
+    },
+    {
+      "label": "Execution End Time",
+      "value": "Nov 19th 2017, 02:56 PM EST"
+    }
+  ]
+}

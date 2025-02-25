@@ -1,9 +1,9 @@
 const path = require("path")
-    const os = require("os")
+const os = require("os")
 const fs = require("fs-extra")
 
 const generateReportPath = path.resolve(__dirname,"Reporter/lib/generate-report.js")
-const reportPath = path.resolve(__dirname, "./report/html")
+const reportPath = "./report/html"
 fs.removeSync(reportPath)
 
 const generateReport = require(generateReportPath)

@@ -1,0 +1,25 @@
+# Use the official Node.js image with volume for reports
+FROM node:20
+
+# Set the working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package.json ./
+COPY package-lock.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application files
+COPY . .
+
+# Set environment variables
+ENV BROWSER=chrome
+ENV baseURL=https://parabank.parasoft.com
+
+# Command to run tests
+CMD ["npm", "run", "test"]
+
+# Define a volume for report storage
+VOLUME ["/app/report"]

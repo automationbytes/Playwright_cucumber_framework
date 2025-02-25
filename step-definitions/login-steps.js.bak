@@ -1,0 +1,17 @@
+const { Given, When, Then } = require('@cucumber/cucumber');
+const { PagesInit } = require('../page-objects/pages-init');
+const { page } = require('@playwright/test');
+const pageObjs = new PagesInit(page);
+
+Given('I am on the landing page', async function () {
+  await pageObjs.loginPage.launchTheApplication();
+  await pageObjs.loginPage.verifyLoginPageIsDisplayed();
+});
+
+Given('I am on the amazon', async function () {
+  await pageObjs.loginPage.amazon();
+});
+
+Given('I am on the facebook', async function () {
+  await pageObjs.loginPage.flipkart();
+});

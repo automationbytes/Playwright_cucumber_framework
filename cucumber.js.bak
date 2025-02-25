@@ -5,7 +5,6 @@ module.exports = {
       "html:./reports/cucumber_report.html",
       "json:./reports/cucumber_report.json"
     ],
-    outputDir: "./reports",
     require: [
       "setup/hooks.js",
       "step-definitions/**/*steps.js"
@@ -14,7 +13,7 @@ module.exports = {
       "features/restapi.feature"
     ],
     playwright: {
-      headless: process.env.HEADLESS === "true" || false,
+      headless: process.env.HEADLESS || false,
       viewport: {
         "width": 1280,
         "height": 720

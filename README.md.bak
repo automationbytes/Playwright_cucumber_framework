@@ -1,0 +1,20 @@
+# Playwright Cucumber Quickstart
+
+This project demonstrates how to use Playwright with Cucumber for testing web applications.
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+
+## Running Tests
+
+- To run tests, use the command: `npm run test`.
+- For specific browsers, use:
+  - Chrome: `npm run test:chrome`
+  - Firefox: `npm run test:firefox`
+  - WebKit: `npm run test:webkit`
+
+## Report Generation
+
+Reports will be generated in the `reports` directory after tests are run.
